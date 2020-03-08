@@ -1,5 +1,5 @@
 {
-  "name": "pixiTemplate",
+  "name": "yarnTemplate",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -15,7 +15,6 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "pixi.js": "^5.2.1"
   },
   "scripts": {
     "production": "webpack --mode production --config webpack.config.prod.js",
