@@ -28,7 +28,7 @@ module.exports = {
             filename: 'index.html',
             hash: true,
             minify: false,
-            title: projectSettings.title,
+            ...projectSettings,
         })
     ]
 }

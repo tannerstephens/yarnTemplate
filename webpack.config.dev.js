@@ -17,7 +17,7 @@ module.exports = {
         new HTMLWebpackPlugin({
             template: 'build/index.html',
             filename: 'index.html',
-            title: projectSettings.title
+            ...projectSettings,
         })
     ]
 }
